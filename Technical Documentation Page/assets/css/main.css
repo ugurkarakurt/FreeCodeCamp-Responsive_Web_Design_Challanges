@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  body #navbar {
+    transition: all 0.3s ease;
+    padding: 0rem 1rem;
+    width: 320px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #e7e6e1 !important; }
+    body #navbar h4 {
+      color: #314e52;
+      border-bottom: 1px solid #f2a154;
+      padding-bottom: 1rem; }
+    body #navbar .collection {
+      border: none; }
+      body #navbar .collection ul {
+        display: flex;
+        flex-direction: column; }
+        body #navbar .collection ul .collection-item {
+          color: #314e52;
+          background-color: transparent; }
+        body #navbar .collection ul .active {
+          margin-left: 1rem;
+          background: #f2a154;
+          background: linear-gradient(210deg, rgba(242, 161, 84, 0) 0%, rgba(242, 161, 84, 0) 52%, #f2a154 100%);
+          font-weight: bold; }
+  body main {
+    transition: all 0.3s ease;
+    margin-left: 320px;
+    padding: 0px 200px 20px 20px;
+    margin-bottom: 110px; }
+    body main section {
+      padding-top: 20px; }
+      body main section p {
+        margin-left: 1rem; }
+      body main section ul li {
+        margin: 1rem 3rem;
+        list-style: disc inside !important; }
+        body main section ul li li {
+          position: static;
+          list-style: circle inside !important; }
+      body main section code {
+        display: block;
+        text-align: left;
+        white-space: pre-line;
+        position: relative;
+        word-break: normal;
+        word-wrap: normal;
+        line-height: 2;
+        background-color: #f7f6e7;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 5px; }
+  body .checkbtn {
+    z-index: 2;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: #f2a154;
+    cursor: pointer;
+    display: none;
+    text-align: center; }
+    body .checkbtn i {
+      position: relative;
+      right: 20px; }
+  body #check {
+    display: none; }
+
+@media (max-width: 920px) {
+  body .checkbtn {
+    display: block; }
+  body #check:checked ~ #navbar {
+    left: 0; }
+  body #navbar {
+    z-index: 10;
+    left: -100%; }
+  body main {
+    padding: 1rem;
+    margin-left: 0px !important; } }
+
+/*# sourceMappingURL=main.css.map */

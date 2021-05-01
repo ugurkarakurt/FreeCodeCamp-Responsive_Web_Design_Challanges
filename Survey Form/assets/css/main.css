@@ -1,0 +1,82 @@
+body {
+    background: rgb(56, 56, 138);
+    background: linear-gradient(90deg, rgba(56, 56, 138, 1) 0%, rgba(99, 99, 157, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+/* ========== Spesific Classes ==========*/
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 720px;
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+.header {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.header h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.header .description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+}
+
+.header p {
+    font-size: 1.125rem;
+}
+
+main form {
+    background: #252546;
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+}
+
+main form .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+main form .form-group label {
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+main form .form-group input {
+    margin: 0;
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+main form .form-group input::placeholder {
+    color: #848484;
+}
+
+@media (min-width: 480px) {
+    main form {
+        padding: 2.5rem;
+    }
+}

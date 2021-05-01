@@ -1,0 +1,172 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background-color: #eee; }
+  body #header nav {
+    min-height: 75px;
+    padding: 0px 20px;
+    background-color: #eee; }
+    body #header nav .nav-wrapper {
+      height: 100%; }
+      body #header nav .nav-wrapper .brand-logo {
+        width: 60vw;
+        height: 100%;
+        display: flex;
+        align-items: center; }
+        body #header nav .nav-wrapper .brand-logo img {
+          width: 100%;
+          height: 35px;
+          max-width: 300px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin-left: 20px; }
+      body #header nav .nav-wrapper ul {
+        width: 35vw;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        body #header nav .nav-wrapper ul li {
+          height: 100%; }
+          body #header nav .nav-wrapper ul li a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: #000;
+            text-decoration: none; }
+  body main .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto; }
+    body main .container #search {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      height: 200px; }
+      body main .container #search h2 {
+        margin-bottom: 20px;
+        word-wrap: break-word;
+        font-size: 25px;
+        font-weight: 600; }
+      body main .container #search button {
+        vertical-align: center;
+        background-color: #f1c40f;
+        color: #000000;
+        max-width: 150px;
+        width: 100%;
+        margin: 15px 0;
+        border: 0; }
+    body main .container #features {
+      margin-top: 60px; }
+      body main .container #features .grid {
+        display: flex; }
+        body main .container #features .grid .icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 125px;
+          width: 20vw;
+          color: #ff8c00; }
+          body main .container #features .grid .icon span {
+            font-weight: 900;
+            font-size: 4rem; }
+        body main .container #features .grid .description {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 125px;
+          width: 80vw;
+          padding: 5px; }
+          body main .container #features .grid .description h2 {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            word-wrap: break-word;
+            font-size: 25px;
+            font-weight: 600; }
+          body main .container #features .grid .description p {
+            margin: 0;
+            padding: 0; }
+    body main .container #how-it-works {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center; }
+      body main .container #how-it-works iframe {
+        border: none;
+        max-width: 560px;
+        width: 100%; }
+    body main .container #pricing {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      body main .container #pricing .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: calc(100% / 3);
+        margin: 10px;
+        border: 1px solid #000;
+        border-radius: 3px; }
+        body main .container #pricing .col .card {
+          width: 100%;
+          margin: 0;
+          background-color: transparent; }
+          body main .container #pricing .col .card .card-title {
+            background-color: #ddd;
+            color: black;
+            padding: 15px 0;
+            width: 100%;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 20px; }
+          body main .container #pricing .col .card .card-content {
+            padding: 0; }
+            body main .container #pricing .col .card .card-content h2 {
+              margin-top: 15px;
+              font-size: 2rem;
+              font-weight: 600; }
+            body main .container #pricing .col .card .card-content ol {
+              padding: 0;
+              margin: 15px 0; }
+              body main .container #pricing .col .card .card-content ol li {
+                list-style: none; }
+          body main .container #pricing .col .card .card-action .btn {
+            background-color: #f1c40f;
+            color: #000000; }
+  body footer .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px; }
+    body footer .container ul {
+      margin: 0;
+      display: flex;
+      justify-content: flex-end; }
+      body footer .container ul li {
+        padding: 0 10px; }
+        body footer .container ul li a {
+          color: #000;
+          text-decoration: none; }
+    body footer .container span {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 0.9em;
+      color: #444; }
+
+@media only screen and (max-width: 800px) {
+  #pricing {
+    align-items: center;
+    flex-direction: column !important; }
+    #pricing .col {
+      width: 90% !important; } }
+
+/*# sourceMappingURL=main.css.map */
